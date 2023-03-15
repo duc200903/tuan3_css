@@ -1,0 +1,17 @@
+.bangluong{
+    background-color: #fff;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 510px;   
+}
+table{
+    padding: 5px;
+    display: block; 
+    box-shadow: 0 0 15px;
+}
+thead{
+    background-color: #e6d8d8;
+}
+.hang10{
+    background-color: #e6d8d8;
+}

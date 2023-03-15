@@ -1,0 +1,21 @@
+.container{
+    width:750px;
+    height: 540px;
+    display: block;
+    box-shadow: 0 0 15px;
+    margin-left: 400px;
+}
+.row::before, .row::after{
+    display: table;
+    color: "";
+}
+.row::after{
+    clear: both;
+}
+.col1, .col2, .col3{
+    float: left;
+    width: 25.333333333%;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 30px;
+}

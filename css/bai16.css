@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.wapper{
+    box-shadow: 0 0 10px;
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+    width: 12%;
+    padding: 20px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #0d90df;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    font-weight: normal;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu li:hover{
+    background-color: rgb(63, 224, 82);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}

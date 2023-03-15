@@ -1,0 +1,32 @@
+#menu{
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px;
+    width: 45%;
+    margin: 0 auto;
+   margin-top: 20px;
+}
+.sub-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+}
+
+.sub-menu li{
+    list-style: none;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.sub-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.sub-menu li a:hover{
+    color: orange;
+}

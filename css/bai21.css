@@ -1,0 +1,127 @@
+.layout{
+    width: 100%;
+    height:500px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+header{
+    height:40px;
+    width: 100%;
+    border: 1px solid #000;
+}
+footer{
+    height: 40px;;
+    width: 100%;
+    border: 1px solid #000;
+}
+section{
+    height: 420px;
+    width: 100%;
+    border: 1px solid #000;
+}
+/* layout 1 */
+.layout1{
+    background-color: #f7caac;
+    text-align: center;
+}
+/* layout 2 */
+.layout2{
+    background-color: #e2efd9;
+    text-align: center;
+}
+main{
+    height: 420px;
+    width: 100%;
+    border: 1px solid #000;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.layout2 nav{
+    width: 20%;
+    border: 1px solid #000;
+}
+.layout2 section{
+    width: 20%;
+    border: 1px solid #000;
+}
+/* layout 3 */
+.layout3{
+    background-color: #ffe599;
+    text-align: center;
+}
+.layout3 menu{
+    height:40px;
+    width: 100%;
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+}
+.layout3 nav{
+    width: 20%;
+    border: 1px solid #000;
+}
+.layout3 section{
+    width: 20%;
+    border: 1px solid #000;
+}
+/* layout 4 */
+.layout4{
+    background-color: #8eaadb;
+    text-align: left;
+}
+.layout4 nav{
+    width: 20%;
+    border: 1px solid #000;
+}
+.layout4 section{
+    border: 1px solid #000;
+}
+.layout4 article{
+    border: 1px solid #000;
+    width: 90%;
+    height: 380px;
+    margin: 0 30px;
+    background-color:#fbe4d5;
+}
+/* layout 5 */
+.layout5{
+    background-color: #a8d08d;
+    text-align: left;
+}
+.layout5 article{
+    border: 1px solid #000;
+    width: 95%;
+    height: 380px;
+    margin: 0 30px;
+    background-color:#fbe4d5;
+}
+/* layout 6 */
+.layout6{
+    background-color: #ffe599;
+    text-align: left;  
+}
+.layout6 section{
+    border: 1px solid #000;
+}
+.article{
+    width:90%;
+    border: 1px solid #000;
+    margin: 20px;
+}
+.layout6 article{
+    height: 160px;
+    border: 1px solid #000;
+}
+.layout6 article:nth-child(1){
+    background-color: #fff2cc;
+}
+.layout6 article:nth-child(2){
+    background-color: #fbe4d5;
+}
+.layout6 aside{
+    width:30%;
+    border: 1px solid #000;
+}

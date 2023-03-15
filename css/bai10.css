@@ -1,0 +1,34 @@
+.box {
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 30%;
+    background-color: #ffcc00;
+    position: absolute;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+  
+  @keyframes box {
+    0% {
+      transform: translateX(180deg);
+    }
+    50% {
+      transform: translateX(500px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+    
+}
+  
+

@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+    padding-top: 20px;
+}
+
+.wapper{
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px;
+    margin: 0 auto;
+    width: 37%;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+    text-align:center;
+    color: brown;
+    font-size: 30px;
+}
+.sponsor-container {
+	display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsor {
+	margin: 0;
+	border: 2px solid #ccc;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.sponsor:hover {
+	border-color: #000;
+}
+
+.sponsor a {
+	display: block;
+}
+
+.sponsor img {
+	max-width: 100%;
+	height: auto;
+}

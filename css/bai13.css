@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.wapper{
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px;
+    margin: 0 auto;
+    width: 60%;
+}
+.img ul{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.img ul li{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.img li a{
+    text-decoration: none;
+}
+
+.img a img:hover{
+    transform: scale(1.25);
+}

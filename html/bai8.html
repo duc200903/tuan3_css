@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bai8.css">
+</head>
+
+<body>
+    <div class="bai8_a">
+        <h2>Border Clor</h2>
+        <p><b>Syntax : </b><span class="test">border-color:</span> <span class="color">(top) (right)
+                (bottom)(left);</span><br>
+            <b>Example:</b> <span class="test">border-color:</span> <span class="color">#85C226 #F7C200 #4493A0
+                #DF127B;</span>
+        </p>
+        <div class="container_a">
+            <p><b>Here the top border is green(#85C226) in color,</b></p>
+            <p><b>right border is yellow(#F7C200),</b></p>
+            <p><b>the bottom has blue(#4493A0)</b></p>
+            <p><b>and Left borders in pink(#DF127B) in color.</b></p>
+        </div>
+    </div>
+
+    <div class="bai8_b">
+        <h2>Border Style <button style="color: white; background-color: red;"><b>Important</b></button></h2>
+        <p>This property must be used if you are using any of the Border properties.<br>
+            Without using this border-style property you won't see any borders at all.<br>
+            <b>Syntax : </b><span class="test">border-color:</span> <span class="color">(top) (right) (bottom)
+                (left);</span><br>
+            <b>Example:</b> <span class="test">border-style:</span> <span class="color">solid dotted groove
+                double;</span>
+        </p>
+        <div class="container_b">
+            <p><b>Here the top border (green) has solid style,</b></p>
+            <p><b>right (yellow) one has dotted,</b></p>
+            <p><b>bottom (blue) one has groove and</b></p>
+            <p><b>the left (pink) one has the double style.</b></p>
+        </div>
+    </div>
+
+    <div class="bai8_c">
+        <h2>Border Width</h2>
+        <p><b>Syntax : </b><span class="test">border-color:</span> <span class="color">(top) (right) (bottom)
+                (left);</span><br>
+            <b>Example:</b> <span class="test">border-width:</span> <span class="color">5px 10px 15px 20px;</span>
+        </p>
+        <div class="container_c">
+            <p><b>Here Top (green) border's width is 5 pixel,</b></p>
+            <p><b>right (yellow) border is 10 pixel wide,</b></p>
+            <p><b>bottom (blue) is 15 pixel</b></p>
+            <p><b>and left (pink) is 20 pixel wide.</b></p>
+        </div>
+    </div>
+
+    <div class="bai8_d">
+        <h2>Border Radius</h2>
+        <p><b>Syntax : </b><span class="test">border-color:</span> <span class="color">(top-left) (top-right)(bottom-right) (bottom-left);</span><br>
+           <b>Example:</b> <span class="test">border-color:</span> <span class="color">0px 30px 70px 20px;</span>
+        </p>
+            For displaying round comers Border Radius property is used.<br>
+            IE9 and Opera use the same code. For Firefox a prefix "-moz-" needs to be added before the code. And for
+            Webkit<br>
+            Browsers "-webkit-" neededs to be added before the code.<br>
+        <p>Box-shadow property for all the browsers</p>
+        <div>
+            <table id="box-1">
+                <tr>
+                    <th style="text-align: left;  background-color: #f3ebeb;">
+                        <p>For IE and Opera</p>
+                        <p>For Mozilla Firefox</p>
+                        <p>For Webkit Browsers</p>
+                    </th>
+                    <th style="text-align: right;  background-color: #fff; font-size: 15px;">
+                        <p><span class="test">box-shadow:</span> <span class="color">0px 30px 70px 20px;</span></p>
+                        <p><span class="test">-moz-box-shadow:</span> <span class="color">0px 30px 70px 20px;</span></p>
+                        <p><span class="test">-webkit-box-shadow:</span> <span class="color">0px 30px 70px 20px;</span></p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div class="container_d">
+            <p><b>No Boder Radius (0px) has been applied on the top-left (green-pink) corner.</b></p>
+            <p><b>Border radius (30px) has been applied on the top-right (green-yellow) corner.</b></p>
+            <p><b>Border radius (70px) has been applied on the bottom-right (blue-yellow) corner.</b></p>
+            <p><b>Border radius (20px) has been applied on the bottom-left (blue-yellow) corner.</b></p>
+        </div>
+    </div>
+    
+    <div id="bai8_e">
+        <div class="adv-hemisphere">
+            <h3 style="text-align: center; margin-top: 40px;">Adv-Hemisphere</h3>
+        </div>
+        <div>
+            <table class="bange">
+                <tr>
+                    <th> 1<br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br></th>
+                    <th><span class="test">#adv-hemisphere</span>
+                        <span class="test">border-width:</span> <span class="color">4px 30px 4px 30px</span><br>
+                        <span class="test">border-style:</span> <span class="color">groove ridge dashe dgroove;</span><br>
+                        <span class="test">border-color:</span> <span class="color">#cc0000;</span><br>
+                        <span class="test">border-radius:</span> <span class="color">100px 100px 0 0;</span><br>
+                        <span class="test">-moz-box-radius:</span> <span class="color">100px 100px 0 0;</span><br>
+                        <span class="test">-webkit-box-radius:</span> <span class="color">100px 100px 0 0;</span>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

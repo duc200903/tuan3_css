@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wapper{
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px;
+    width: 38%;
+    height: 390px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+#content-1{
+    margin-left: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#content-2{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer p{
+    font-size: 20px;
+    position: fixed;
+    background-color: green;
+    width: 558px;
+    padding: 20px 0;
+    margin-left: 10px;
+    color: #ffffff;
+}

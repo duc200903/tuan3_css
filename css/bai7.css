@@ -1,0 +1,23 @@
+.newspaper{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -moz-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    column-rule-style: solid;
+    -moz-column-rule-width: 1px;
+    -moz-column-rule-width: 1px;
+    column-rule-width: 1px;
+    -moz-column-rule-color: lightblue;
+    -moz-column-rule-color: lightblue;
+    column-rule-color: lightblue;
+}
+.container{
+    display: block;
+    box-shadow: 0 0 15px;
+    width: 600px;
+    margin-left: 440px;
+}
